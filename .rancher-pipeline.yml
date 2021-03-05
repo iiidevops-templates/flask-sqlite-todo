@@ -55,11 +55,6 @@ stages:
         git.repoName: ${CICD_GIT_REPO_NAME}
         web.port: 5000
         web.imageTag: ${CICD_GIT_REPO_NAME}/${CICD_GIT_BRANCH}:latest
-        # db settings, all should be as same as those in deploy-db stage
-        db.releaseName: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-db
-        db.username: iiidevops
-        db.password: templatePassword
-        db.name: todo
     when:
       branch:
         include:
