@@ -1,6 +1,6 @@
 {
   "name": "Flask Sqlite - todo",
-  "description": "Flask / Sqlite <a class='el-link el-link--primary' href='https://github.com/iiidevops-templates/flask-sqlite-todo/blob/master/README.md'>Todo範本說明</a>",
+  "description": "Flask / Sqlite <a class='el-link el-link--primary' href='https://github.com/iiidevops-templates/flask-sqlite-todo/blob/master/README.md' target="_blank">Todo範本說明</a>",
   "arguments": [
   ]
 }
