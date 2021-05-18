@@ -182,7 +182,7 @@ stages:
         git.url: ${CICD_GIT_URL}
         pipeline.sequence: ${CICD_EXECUTION_SEQUENCE}
         web.deployName: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-serv
-        web.port: 3000
+        web.port: 5000
       catalogTemplate: cattle-global-data:iii-dev-charts3-test-sideex
       name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-sdx
       targetNamespace: ${CICD_GIT_REPO_NAME}
